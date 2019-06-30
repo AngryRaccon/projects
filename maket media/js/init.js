@@ -1,0 +1,4 @@
+function Init() {
+    carouselTimer();
+    InitVideo();
+};

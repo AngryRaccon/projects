@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onLoad = 'timerInit()'>
+    <div class="container">
+        <header class="header">
+            <a href="#">
+                <img class="logo" width="54" height="59" src="img/logo.png" alt="logo">
+                <div class="logoName">
+                    <img src="img/envato.png" alt="envato">
+                    <span class="bangladesh">bangladesh</span>    
+                </div>   
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#event-details">event details</a></li>
+                    <li><a href="#speakers">speakers</a></li>
+                    <li><a href="#sponsors">sponsors</a></li>
+                    <li><a href="#past-events">past events</a></li>
+                    <li><a href="#contact-us">contact</a></li>
+                </ul>
+            </nav> 
+            <div class="timer">
+                <span id="timer-span"></span>
+                <span class="timer-days timer-items">days</span>
+                <span class="timer-hours timer-items">hours</span>
+                <span class="timer-minutes timer-items">monutes</span>
+                <span class="timer-seconds timer-items">seconds</span>
+            </div>  
+            <div class="registration">
+                <form action="#" class="registrForm">
+                    <legend class="registrHeader">Sing up for our event</legend>
+                    <div class="input">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="input">
+                       <input type="email" placeholder="Enter your email"> 
+                    </div>
+                    <div class="input">
+                        <input type="tel" placeholder="Phone number">
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Evanto username">
+                    </div>
+                    <div class="input">
+                        <input type="submit" value="Let me in!">
+                    </div>
+                    <p>Hurry up, Limited seats avalible</p>
+                    <p><em>*</em>we will never spam your email</p>
+                </form>
+            </div>
+            <article class="welcome">
+                <h1>Welcome!</h1>  
+                <p>The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...</p>
+                <p>Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited! </p>
+                <p>It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;) Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!</p>
+            </article>
+            
+        </header>
+        <section class="eventDetails" id="event-details">
+            <figure class="event community">
+                <img src="img/community.png" alt="community">
+                <figcaption>
+                    <span class="eventHeader">Community</span>
+                    <p class="eventDescription">
+                        Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation and topics. We will have loads of fun. 
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="event talkShop">
+                <img src="img/talkShop.png" alt="talk shop">
+                <figcaption>
+                    <span class="eventHeader">Talk Shop</span>
+                    <p class="eventDescription">
+                        In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="event warStories">
+                <img src="img/warStories.png" alt="war stories">
+                <figcaption>
+                    <span class="eventHeader">War Stories</span>
+                    <p class="eventdescription">
+                        Gather round fellow authors! Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.
+                    </p>
+                </figcaption>
+            </figure>
+            <table class="timetable">
+                <thead>
+                    <tr>
+                        <td>Time</td>
+                        <td>Stuff that will happen</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time">10am - 12pm</td>
+                        <td class="description">
+                            <details>
+                                <summary>Introduction and presentations about Envato</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, expedita. Blanditiis maiores, nemo deleniti, molestiae voluptate perspiciatis, fugiat consequuntur sed aspernatur officia sint incidunt cumque aperiam! Dignissimos commodi, labore quos, soluta fuga porro cum quam sapiente odio nesciunt maiores minima dicta cupiditate, numquam esse sint? Perspiciatis debitis beatae ad accusamus.</p>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time">12pm - 02 pm</td>
+                        <td class="description">
+                            <details>
+                                <summary>Sessions by honorable guests and Speakers</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, expedita. Blanditiis maiores, nemo deleniti, molestiae voluptate perspiciatis, fugiat consequuntur sed aspernatur officia sint incidunt cumque aperiam! Dignissimos commodi, labore quos, soluta fuga porro cum quam sapiente odio nesciunt maiores minima dicta cupiditate, numquam esse sint? Perspiciatis debitis beatae ad accusamus.</p>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time">02pm - 03pm</td>
+                        <td class="description">
+                            <details>
+                                <summary>Break and Mingle time with the authors</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, expedita. Blanditiis maiores, nemo deleniti, molestiae voluptate perspiciatis, fugiat consequuntur sed aspernatur officia sint incidunt cumque aperiam! Dignissimos commodi, labore quos, soluta fuga porro cum quam sapiente odio nesciunt maiores minima dicta cupiditate, numquam esse sint? Perspiciatis debitis beatae ad accusamus.</p>
+                            </details>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="time">03pm - 05pm</td>
+                        <td class="description">
+                            <details>
+                                <summary>Portfolio Review, Rewards and Ending Presentation</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, expedita. Blanditiis maiores, nemo deleniti, molestiae voluptate perspiciatis, fugiat consequuntur sed aspernatur officia sint incidunt cumque aperiam! Dignissimos commodi, labore quos, soluta fuga porro cum quam sapiente odio nesciunt maiores minima dicta cupiditate, numquam esse sint? Perspiciatis debitis beatae ad accusamus.</p>
+                            </details>
+                        </td>
+                    </tr>
+                </tbody>
+            </table> 
+            <p class="table-description">
+                Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :&#041
+            </p>   
+        </section>
+        <section class="elite">
+            <div class="elite-div-content">
+                <span class="elite-span">We reward the Elites!</span>
+                <p class="elite-p">
+                    Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.
+                </p>
+                <p class="elite-p"> 
+                    All you have to do is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.
+                </p>
+                <p class="elite-p">
+                    *Be advised, we will only give you Elite thank you swag for each level of elite you cross.
+                    That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.
+                </p>
+                <button class="elite-button">Bring on the swag!</button>   
+            </div>    
+        </section>
+        <section class="speakers" id="speakers">
+            <span class="speakers-span">Speakers</span>
+            <p class="speakers-p">
+                Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business.
+            </p>    
+            <p class="speakers-p">    
+                Hope you will have a great time listening to our presentations!
+            </p>
+            <div class="speakers-div">
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker-center"></div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="about-speaker">
+                    <span class="about-speaker-name">Shahriyer</span>
+                    <span class="about-speaker-name">Shuvo</span>
+                    <p class="about-speaker-description">
+                        More about selling in the Envato Marketplaces
+                    </p>
+                    <div class="speaker-social-links">
+                        <a href="#" class="about-speaker-link">
+                            <span>f</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>l</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>e</span>
+                        </a>
+                        <a href="#" class="about-speaker-link">
+                            <span>d</span>
+                        </a>    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sponsors" id="sponsors">
+            <span class="sponsors-span">Sponsor Our Event!</span>
+            <p class="sponsors-p">
+                If you want to help us making this event lively and successful, help us by sponsoring our event!
+                This will help us bring in more people, have better livestreaming equipment, maybe even our own chef!
+                You can also sponsor us by giving away free swag at the event!
+            </p>
+            <p class="sponsors-p">
+                Here’s who have sponsored us already:
+            </p>
+            <div class="sponsors-div">
+                <img src="img/sponsor-1.png" alt="1st sponsor" class="sponsors-img" width="178" height="69">
+                <img src="img/sponsor-2.png" alt="2nd sponsor" class="sponsors-img" width="95" height="75">
+                <img src="img/sponsor-3.png" alt="3rd sponsor" class="sponsors-img" width="153" height="28">
+            </div>
+            <button class="sponsors-button">Sponsor Us</button>
+        </section>
+        <section class="past-events" id="past-events">
+            <span class="past-events-span">Past Events</span>
+            <p class="past-events-p">
+                Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)
+            </p>
+            <img src="img/event-img-1.jpg" alt="our event" width="600" height="416">
+            <img src="img/event-img-2.jpg" alt="our event" width="570" height="416">
+            <img src="img/event-img-3.jpg" alt="our event" width="500" height="368">
+            <img src="img/event-img-4.jpg" alt="our event" width="670" height="366">
+            <button class="past-events-button">View More</button>
+        </section>
+        <section class="contact-us" id="contact-us">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f4b44630f6b2db54bd053cad29b6dbbfdb05f136444b0b1eb22cf2a51632ff5&amp;width=100vw;height=100vh;lang=ru_RU&amp;scroll=true"></script>
+            <div id="contact-form" class="contact-form">
+               <div class="adress">
+                   <img src="img/contacts-form.png" class="adress-img" width="132" height="140">
+                   <p class="adress-p">Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122, Kingdom of Australia</p>
+                   <a href="#contact-form-close" class="exit-href">View Map</a>
+               </div>
+               <div class="callback">
+                    <form action="#" id="send-message">
+                        <input type="email" class="callback-email" placeholder="Type your email">
+                        <textarea name="message" id="message" class="callback-message" cols="30" rows="10" placeholder="Type your message"></textarea>
+                   </form>
+                   <button type="submit" form="send-message" class="callback-button">Send Message</button>   
+               </div>
+            </div>
+            <div class="contact-bg">
+                <a href="#contact-form" id="contact-form-close" class="open-contact-form">Contact Us</a>    
+            </div>
+        </section>
+        <footer class="footer">
+            <a href="#" class="contact-us-link"><span>f</span></a>
+            <a href="#" class="contact-us-link"><span>l</span></a>
+            <a href="#" class="contact-us-link"><span>i</span></a>
+            <a href="#" class="contact-us-link"><span>g</span></a>
+            <a href="#" class="contact-us-link"><span>t</span></a>
+            <p class="footer-p">Hope we see you at the event!</p>
+            <p class="footer-p">All Rights Reserved. Envato Bangladesh &copy; 2015</p>
+        </footer>
+        <a href="#" class="go-up-btn" id="goUp"></a>
+    </div>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/timer-function.js"></script>
+    <script src="js/toUp.js"></script>
+    <script src="js/menu-animate.js"></script>
+</body>
+</html>

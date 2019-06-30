@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header greenTheme">
+            <div class="sound">
+                <button class="isMuted soundOn"></button>
+            </div>
+            <div class="lives">
+                <span class="live">&#128163;</span>
+                <span class="live">&#128163;</span>
+                <span class="live">&#128163;</span>    
+            </div>
+            <div class="flags">
+                <span class="numOfFlags">0</span>
+                <span>&#128681;</span>
+            </div>
+            <div class="settings">
+                <button class="settingsBtn notPressed">
+                    <img src="img/settings.png" alt="settings" class="settingsBtnImg">
+                </button>
+            </div>
+        </div>
+        <div class="fortable"></div>
+        <div class="result">
+            <p class="loseP">You losе! &#128542; </p>
+            <p class="winP">You win! &#x1F60A; </p>
+            <button class="new-game">Start new game</button>
+        </div>
+        <div class="toset" style="display: none;">;
+            <p class="themeP">Choose background</p>
+            <img src="img/bg.jpg" alt="bg" width="auto" height="50" class="chooseBG">
+            <img src="img/bg2.jpg" alt="bg2" width="auto" height="50" class="chooseBG">
+            <p class="colorThemeP">Choose color scheme</p>
+            <div class="colorTheme" id="colorTheme1"></div>
+            <div class="colorTheme" id="colorTheme2"></div>
+        </div>
+    </div>
+    <audio src="audio/click.mp3" id="soundOnClick"></audio>
+    <audio src="audio/bomb.mp3" id="soundOnBomb"></audio>
+    <audio src="audio/flag.mp3" id="soundOnFlag"></audio>
+    <script src="js/oop.js"></script>
+    <script src="js/settings.js"></script>
+</body>
+</html>
