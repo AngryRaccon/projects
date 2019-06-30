@@ -122,13 +122,13 @@
     float: left;
 }
 
-.logoName {
+.logo-name {
     float: left;
     padding-top: 50px;
     padding-left: 5px;
 }
 
-.logoName .bangladesh {
+.logo-name .bangladesh {
     display: block;
     font-size: 13.563px;
     letter-spacing: 0.25em;
@@ -210,7 +210,7 @@
     margin-top: 100px;
 }
 
-.registrHeader {
+.registr-header {
     display: inline;
     font-size: 27.838px;
     font-family: "roboto-bold";
@@ -221,7 +221,7 @@
     -ms-transform: matrix( 1.0775,0,0,1.07766990291262,0,0);
 }
 
-.registration .registrForm input {
+.input {
     border-style: solid;
     border-width: 1px;
     border-color: rgb( 190, 190, 190 );
@@ -232,7 +232,7 @@
     outline: none;
 }
 
-.registration .registrForm input[type="submit"] {
+.submit-button {
     font-size: 20.636px;
     font-family: "roboto-bold";
     color: rgb( 255, 255, 255 );
@@ -247,15 +247,19 @@
     transition: opacity 300ms;
 }
 
-.registration .registrForm input[type="submit"]:hover {
+.submit-button:hover {
     opacity: 1;
 }
 
-.registration .registrForm input:focus {
+.submit-button:active {
+    opacity: 0.7;
+}
+
+.input:focus {
     border-color: rgb( 144, 210, 61);
 }
 
-.registration .registrForm p { 
+.registration-p { 
     font-size: 13.919px;
     font-family: "roboto-light";
     color: rgb( 108, 108, 108 );
@@ -290,12 +294,12 @@
     text-align: center;
 }
 
-.eventDetails {
+.event-details {
     clear: both;
 }
 
 .community,
-.talkShop {
+.talk-shop {
     margin-right: 70px;
 }
 
@@ -303,7 +307,7 @@
     margin-left: 140px;
 }
 
-.eventHeader {
+.event-header {
     display: block;
     color: #242424;
     font-family: "roboto-bold";
@@ -311,7 +315,7 @@
     padding: 40px 0 20px 0;
 }
 
-.eventdescription {
+.event-description {
     color: #242424;
     font-family: 'roboto-regular';
     font-size: 14px;
@@ -494,6 +498,10 @@
 
 .elite-button:hover {
     opacity: 1;
+}
+
+.elite-button:active {
+    opacity: 0.7;
 }
 
 .speakers {
@@ -698,6 +706,10 @@
     opacity: 1;
 }
 
+.sponsors-button:active {
+    opacity: 1;
+}
+
 .past-events {
     padding: 115px 95px 95px 95px;
     font-size: 0;
@@ -739,6 +751,7 @@ img[alt="our event"] {
     padding: 20px 50px;
     margin: 95px auto 0 auto;
     transition: background-color 300ms;
+    outline: none;
 }
 
 .past-events-button:hover {
