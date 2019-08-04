@@ -1,0 +1,20 @@
+.gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border: 1px solid #000;
+  justify-content: center;
+  align-self: center;
+  font-size: 50px;
+  font-weight: bold;
+}
